@@ -119,8 +119,7 @@ header {
     transition: all 0.5s ease;
 }
 .btn:hover {
-	background-color:hsl(223, 42%, 47%);
-    color: hsl(0, 0%, 100%);
+	background-color:hsl(223, 42%, 56%);
 }
 
 .btn-contact {
@@ -129,6 +128,10 @@ header {
     color: black;
     margin-left: 10px;
     padding: 13px 16px;
+}
+.btn-contact:hover {
+    background-color:hsl(223, 42%, 47%);
+    color: hsl(0, 0%, 100%);
 }
 
 /*SKILLS*/
@@ -353,6 +356,7 @@ header {
     background-color: hsl(223, 42%, 56%);
 }
 
+
 footer {
     padding: 50px 0;
     min-height: 24rem;
@@ -422,10 +426,12 @@ footer .socials {
 }
 .icons-container i {
     font-size: 28px;
-    padding-right: 20px;
     margin-top: 20px;
     color: hsl(0, 0%, 100%);
     transition: transform 0.3s ease-in-out;
+}
+.icons-container a:nth-child(even) {
+    padding: 0 20px;
 }
 .icons-container i:hover {
     transform: scale(1.4);
